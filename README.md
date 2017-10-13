@@ -78,7 +78,7 @@ Fora a parte dos classificadores, o trabalho mais importante é realmente analis
  * apesar do desafio em sí é o somente a base de dados rotulada, num contexto real deve ser considerado que o teste original é baseado na percepção dos respondentes considerando um questionário estruturado. Postagens representam a projeção do que o usuário seleciona para compor sua imagem. Por exemplo, tenho um visão particular muito forte sobre política mas não posto nada sobre o assunto em lugar algum. O que posto reflete como quero ser visto para os diferentes stakeholders da vida real e não o que realmente penso.
  * SVD não foi descartado. Alguns classificadores obtiveram uma melhora com ele. É necessário analisar a curva de autovalores e definir qual o melhor ponto de corte (número de valores singulares ou valor de truncamento).
  
- 
+Considerando a parte dos classificadores, `tensorFlow` (Deep learning) é uma biblioteca que vem dando bons resultados. Desconheço o custo de execução e como se sairia em produção, mas é algo a ser considerado.
  
 
 
