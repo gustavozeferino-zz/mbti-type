@@ -50,7 +50,23 @@ O desafio foi feito tendo como base o tutorial do sklearn para classificar texto
 
 O ambiente do sklearn oferece funções que vão do processo de limpeza até a validação cruzada e seleção de "features".
 
-Para a validação cruzada, foram utilizados 5 partições dos dados. A acurácia final considerada para o modelo foi a média das 5 execuções. O limite em 5 é devido ao tempo para execução. Como o procedimento é estocástico, é interessante gerar diversos valores de acurácia para que se possa trabalhar com a distribuição empírica de probabilidade de e realizar comparações entre modelos pela curva de probabilidade e não apenas por uma execução.
+Para a validação cruzada, foram utilizados 5 partições dos dados. A acurácia final considerada para o modelo foi a média das 5 execuções. O limite em 5 é devido ao tempo para execução. Como o procedimento é estocástico, é interessante gerar diversos valores de acurácia para que se possa trabalhar com a distribuição empírica de probabilidade e realizar comparações entre modelos pela curva de probabilidade e não apenas por uma execução.
+
+### Resultados obtidos até o momento
+
+
+| Classifier | LSA | Mean accuracy |
+|-:|:-:|-:|
+| GaussianNB | True | 0.594357 |
+| SGDClassifier | False | 0.660164 |
+| SGDClassifier | True | 0.572088 |
+| RandomForestClassifier | False | 0.275707 |
+| RandomForestClassifier | True | 0.439191 |
+| ExtraTreesClassifier | False | 0.273415 |
+| ExtraTreesClassifier | True | 0.400218 |
+| DecisionTreeClassifier | False | 0.464427 |
+| DecisionTreeClassifier | True | 0.334520 |
+
 
 
 
