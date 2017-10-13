@@ -46,7 +46,7 @@ Focados no problema
 ## Resolução do desafio
 
 O desafio foi feito tendo como base o tutorial do sklearn para classificar textos:
-(Working With Text Data) [http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html]
+[Working With Text Data](http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
 
 O ambiente do sklearn oferece funções que vão do processo de limpeza até a validação cruzada e seleção de "features".
 
