@@ -43,6 +43,18 @@ Focados no problema
 
  * Dado que a base foi limpa e ponderada, é testar qual classificar se sai melhor e fazer seu ajuste. A maior parte do trabalho se concentra nas etapas anteriores
 
+## Resolução do desafio
+
+O desafio foi feito tendo como base o tutorial do sklearn para classificar textos:
+(Working With Text Data) [http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html]
+
+O ambiente do sklearn oferece funções que vão do processo de limpeza até a validação cruzada e seleção de "features".
+
+Para a validação cruzada, foram utilizados 5 partições dos dados. A acurácia final considerada para o modelo foi a média das 5 execuções. O limite em 5 é devido ao tempo para execução. Como o procedimento é estocástico, é interessante gerar diversos valores de acurácia para que se possa trabalhar com a distribuição empírica de probabilidade de e realizar comparações entre modelos pela curva de probabilidade e não apenas por uma execução.
+
+
+
+
 
 
 
