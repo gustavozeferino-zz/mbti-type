@@ -67,6 +67,23 @@ Para a validação cruzada, foram utilizados 5 partições dos dados. A acuráci
 | DecisionTreeClassifier | False | 0.464427 |
 | DecisionTreeClassifier | True | 0.334520 |
 
+### Próximos passos
+
+O classificador linear baseado em Gradiente Descente (SGDClassifier) apresentou bons resultados é um candidato a sofrer um ajuste fino para ver até onde o valor da acurácia pode ir.
+
+Fora a parte dos classificadores, o trabalho mais importante é realmente analisar a base de dados e verificar:
+ * limpar mais a base e trabalhar a parte de sinônimos, conteúdo dos links (título da página), correção de erros (e.g. ngrams)
+ * se a amostra é balanceada entre os diversos tipos - isto pode afetar o classifidor
+ * entender o que compões os posts para poder remover ruídos e melhorar as features coletadas
+ * apesar do desafio em sí é o somente a base de dados rotulada, num contexto real deve ser considerado que o teste original é baseado na percepção dos respondentes considerando um questionário estruturado. Postagens representam a projeção do que o usuário seleciona para compor sua imagem. Por exemplo, tenho um visão particular muito forte sobre política mas não posto nada sobre o assunto em lugar algum. O que posto reflete como quero ser visto para os diferentes stakeholders da vida real e não o que realmente penso.
+ * SVD não foi descartado. Alguns classificadores obtiveram uma melhora com ele. É necessário analisar a curva de autovalores e definir qual o melhor ponto de corte (número de valores singulares ou valor de truncamento).
+ 
+ 
+ 
+
+
+
+
 
 
 
